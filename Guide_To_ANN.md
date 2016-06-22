@@ -27,6 +27,8 @@ By utilizing Sigmoid Neurons, our
 
 ### Softmax Function
 
+The softmax function can be thought of as an additional layer in the ANN. 
+
 ### Gradient Descent
 
 Gradient descent is an optimization algorithm that is perhaps the most commonly used optimization algorithm in ANN's. 
