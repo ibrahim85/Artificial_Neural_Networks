@@ -25,6 +25,7 @@ Say we have two possible binary outputs, 1 and 2, and we need to classify our in
 
 By utilizing Sigmoid Neurons, our 
 
+### Softmax Function
 
 ### Gradient Descent
 
