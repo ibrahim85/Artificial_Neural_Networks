@@ -3,8 +3,14 @@
 
 ## Introduction 
 
+
+
 Neural Networks *learn* by *training* on observational datasets. 
 
+There's no one way to define what a neural network is - however we can generally classify ANN models as having:
+
+- Adaptive weights that respond to positive or negative results. This is essentially the *learning* aspect of ANNs. 
+- The ability to compute functions of a non-linear manner. 
 
 When constructing ANNs, it's important to keep in mind that when we first construct our ANN, we should expect it to be not so sure of it's predictions in the beginning. Once we continually feed it training data, the network should then become **more** confident as it learns the correct classifications. 
 
@@ -101,6 +107,18 @@ def eval_numerical_gradient(f, x):
 ### Regularization Methods
 
 ### How to Choose Parameters for Neural Networks
+
+## Types of Artificial Neural Networks
+
+### Convolutional Neural Networks
+
+Convolutional neural networks are useful when: 
+
+- Your data's structure is spatial or temporal; IE your features depend solely on the neighborhood of input data
+- These same local features can in every spatial or temporal position
+- 
+
+
 
 ## Deep Neural Networks
 
