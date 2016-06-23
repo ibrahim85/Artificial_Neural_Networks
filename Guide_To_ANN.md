@@ -6,7 +6,7 @@
 Neural Networks *learn* by *training* on observational datasets. 
 
 
-
+When constructing ANNs, it's important to keep in mind that when we first construct our ANN, we should expect it to be not so sure of it's predictions in the beginning. Once we continually feed it training data, the network should then become **more** confident as it learns the correct classifications. 
 
 
 
@@ -35,9 +35,6 @@ By utilizing Sigmoid Neurons, our
 The softmax function can be thought of as an additional layer in the ANN. 
 
 When we create an ANN, we fundamentally want to find the values of the weights and biases that are good at arriving at our target predictions. Essentially, we want to train our network so that the probability of the correct class is close to one, while the probability of every incorrect class if close to zero. To way to convert these scores into probabilities is to use a softmax function. 
-
-### Cross Entropy
-
 
 
 
