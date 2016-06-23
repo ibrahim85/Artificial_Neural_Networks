@@ -12,8 +12,13 @@ There's no one way to define what a neural network is - however we can generally
 - Adaptive weights that respond to positive or negative results. This is essentially the *learning* aspect of ANNs. 
 - The ability to compute functions of a non-linear manner. 
 
+ANNs are non-linear, distributed, parallel and adaptive. 
+
 When constructing ANNs, it's important to keep in mind that when we first construct our ANN, we should expect it to be not so sure of it's predictions in the beginning. Once we continually feed it training data, the network should then become **more** confident as it learns the correct classifications. 
 
+#### A Brief History of ANNs and Their Development
+
+Whereas the basis for ANNs was originally derived from the structure of biological neural networks (see *perceptrons*), more networks are based or firmer signal processing and statistical models. 
 
 
 ## Elements of Neural Networks
@@ -143,6 +148,10 @@ While DBN's are the greatest in terms of long term scientific potential, they ha
 ### Generative Models
 
 ### Boltzmann Machines
+
+### Memory Networks
+
+**Neural Turing Machines**
 
 ## Applications of Neural Networks
 
