@@ -5,6 +5,11 @@
 
 Neural Networks *learn* by *training* on observational datasets. 
 
+
+
+
+
+
 ## Elements of Neural Networks
 
 ### Artificial Neurons
@@ -28,6 +33,13 @@ By utilizing Sigmoid Neurons, our
 ### Softmax Function
 
 The softmax function can be thought of as an additional layer in the ANN. 
+
+When we create an ANN, we fundamentally want to find the values of the weights and biases that are good at arriving at our target predictions. Essentially, we want to train our network so that the probability of the correct class is close to one, while the probability of every incorrect class if close to zero. To way to convert these scores into probabilities is to use a softmax function. 
+
+### Cross Entropy
+
+
+
 
 ### Gradient Descent
 
