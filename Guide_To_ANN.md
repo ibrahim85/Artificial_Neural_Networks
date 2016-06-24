@@ -71,6 +71,7 @@ The problem with perceptrons is that they work more or less perfectly if you dat
 
 ### Adaptive Linear Neurons - AKA ADALINE
 
+A few years after the development of the perceptron, a scientist by the name of Bernard Widrow developed on the perceptron concept and created the adaptive linear neuron. The funamental difference between the functions exists in the manner in which each derive their weights - whereas the perceptron uses a *unit step function*, the ADALINE utilizes a **linear activation function*
 
 # Elements of Neural Networks
 
