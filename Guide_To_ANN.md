@@ -93,7 +93,7 @@ Just like it's predecessor the perceptron, sigmoid neurons have multiple inputs.
 
 The output of a sigmoid neuron is represented by the *sigmoid function*. You're probably familiar with the sigmoid curve: 
 
-!(./images/sigcurv.png)
+![](./images/sigcurv.png)
 
 ## Softmax Function
 
