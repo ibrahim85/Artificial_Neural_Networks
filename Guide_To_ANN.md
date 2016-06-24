@@ -87,7 +87,7 @@ By utilizing Sigmoid Neurons, our
 
 Sigmoid Neurons allow for the small changes in weight that adjust to small changes in output that make learning possible. 
 
-![](./assets/sigm.png)
+![](./images/sigm.png)
 
 ## Softmax Function
 
