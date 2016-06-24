@@ -27,15 +27,17 @@ Whereas the basis for ANNs was originally derived from the structure of biologic
 
 #### Perceptrons 
 
-Perceptrons are the most basic artificial neurons that make Neural Networks work. 
-
-Developed in the 1950s by Frank Rosenblatt
+Perceptrons are the most basic artificial neurons that make Neural Networks work. Developed in the 1950s by Frank Rosenblatt, these artificial neurons are less common today as they are typically used to make simplistic decisions. 
 
 A perceptron takes several inputs and determines one singular output. 
 
 To compute output, perceptrons use *weights*, which are simply numbers that represent how import each input signal is to the aggregated final output. The pre-output of the perception is then determined by the summation of these various weighted inputs. Once we have a weight, it is measured against a *threshold value* which will determine the final binary output, say *0* or *1*. 
 
-Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight, and the 
+Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight and reutrn a single decision 
+
+#### Adaptive Linear Neurons - AKA ADALINE
+
+
 
 #### Sigmoid Neurons 
 
@@ -123,9 +125,18 @@ Convolutional neural networks are useful when:
 - These same local features can in every spatial or temporal position
 - 
 
+These network are based on three principles:
+
+- Local receptive fields 
+- Shared weights
+- Pooling
+
+covolutional networks take into account the spatial structure of data; as such they are frequently used for image recognition.  
+
+With convolutional networks - the structure represents more of a 
 
 
-## Deep Neural Networks
+### Deep Neural Networks
 
 We've learned about Shallow Neural Networks, but what about Deep Neural Networks or *Deep Learning*? 
 
