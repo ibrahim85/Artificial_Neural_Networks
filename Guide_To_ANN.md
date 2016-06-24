@@ -33,11 +33,37 @@ Perceptrons are the most basic artificial neurons that make Neural Networks work
 
 A perceptron takes several inputs and determines one singular output. To compute output, perceptrons use *weights*, which are simply numbers that represent how import each input signal is to the aggregated final output. The pre-output of the perception is then determined by the summation of these various weighted inputs. Once we have a weight, it is measured against a *threshold value* which will determine the final binary output, say *0* or *1*. 
 
-Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight and return a single decision 
+Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight and return a single decision.
+
+Below, you can see an implementation of the perceptron rule in Python. 
 
 ```
+class Perceptron(object):
 
+    def __init__(self, eta=0.01, epochs=50):
+        self.eta = eta
+        self.epochs = epochs
 
+    def train(self, X, y):
+
+        self.w_ = np.zeros(1 + X.shape[1])
+        self.errors_ = []
+
+        for _ in range(self.epochs):
+            errors = 0
+            for xi, target in zip(X, y):
+                update = self.eta * (target - self.predict(xi))
+                self.w_[1:] +=  update * xi
+                self.w_[0] +=  update
+                errors += int(update != 0.0)
+            self.errors_.append(errors)
+        return self
+
+    def net_input(self, X):
+        return np.dot(X, self.w_[1:]) + self.w_[0]
+
+    def predict(self, X):
+        return np.where(self.net_input(X) >= 0.0, 1, -1)
 
 ```
 
