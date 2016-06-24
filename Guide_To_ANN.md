@@ -5,7 +5,10 @@ This field guide was developed for the Data Science Immersive Class at General A
 
 # Introduction 
 
-We live in an age of machine learning; as one of the most important and growing areas of study in the modern technology age, machine learning and it's applications have the potential to penetrate every aspect of our lives. From text and voice recognition to self driving cars - it's already shaping our future lives and enviroment. 
+We live in an age of machine learning; as one of the most important and growing areas of study in the modern technology age, machine learning and it's applications have the potential to penetrate every aspect of our lives. From text and voice recognition to self driving cars - it's already shaping our future lives and enviroment. Within machine learning, one of the biggest areas of research and development is with artificial neural networks. 
+
+
+
 
 Neural Networks *learn* by *training* on observational datasets. 
 
@@ -20,20 +23,25 @@ When constructing ANNs, it's important to keep in mind that when we first constr
 
 # A Brief History of ANNs and Their Development
 
-Whereas the basis for ANNs was originally derived from the structure of biological neural networks (see *perceptrons*), more networks are based or firmer signal processing and statistical models. 
+In 1943, Warren McCulloch and Walter Pitts drew out the first conceptual network on the basic of the brain's frontal cortex. Whereas the basis for ANNs was originally derived from the structure of biological neural networks (see *perceptrons*), more networks are based or firmer signal processing and statistical models. 
 
 ## Arriving at modern day neural networks
-
 
 ### Perceptrons 
 
 Perceptrons are the most basic artificial neurons that make Neural Networks work. Developed in the 1950s by Frank Rosenblatt, these artificial neurons are less common today as they are typically used to make simplistic decisions. 
 
-A perceptron takes several inputs and determines one singular output. 
+A perceptron takes several inputs and determines one singular output. To compute output, perceptrons use *weights*, which are simply numbers that represent how import each input signal is to the aggregated final output. The pre-output of the perception is then determined by the summation of these various weighted inputs. Once we have a weight, it is measured against a *threshold value* which will determine the final binary output, say *0* or *1*. 
 
-To compute output, perceptrons use *weights*, which are simply numbers that represent how import each input signal is to the aggregated final output. The pre-output of the perception is then determined by the summation of these various weighted inputs. Once we have a weight, it is measured against a *threshold value* which will determine the final binary output, say *0* or *1*. 
+Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight and return a single decision 
 
-Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight and reutrn a single decision 
+```
+
+
+
+```
+
+The problem with perceptrons is that they work more or less perfectly if you data can be represented on a linear plane. However if your data exists in some other form of feature space, however, it is necessary to use a more advanced form of artificial neuron. 
 
 ### Adaptive Linear Neurons - AKA ADALINE
 
