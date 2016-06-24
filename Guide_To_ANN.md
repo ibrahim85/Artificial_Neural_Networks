@@ -1,11 +1,11 @@
 # Field Guide to Neural Networks
-#### By Patrick D. Smith.
+### By Patrick D. Smith.
 
 This field guide was developed for the Data Science Immersive Class at General Assembly, Washington DC. All content herin is property of the author.
 
 # Introduction 
 
-
+We live in an age of machine learning; as one of the most important and growing areas of study in the modern technology age, machine learning and it's applications have the potential to penetrate every aspect of our lives. From text and voice recognition to self driving cars - it's already shaping our future lives and enviroment. 
 
 Neural Networks *learn* by *training* on observational datasets. 
 
