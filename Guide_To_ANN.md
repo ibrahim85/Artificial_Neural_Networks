@@ -1,6 +1,8 @@
 # Field Guide to Neural Networks
 #### By Patrick D. Smith.
 
+This field guide was developed for the Data Science Immersive Class at General Assembly, Washington DC. All content herin is property of the author.
+
 # Introduction 
 
 
@@ -36,19 +38,19 @@ Say we have two possible binary outputs, 1 and 2, and we need to classify our in
 ### Adaptive Linear Neurons - AKA ADALINE
 
 
-## Elements of Neural Networks
+# Elements of Neural Networks
 
-### Artificial Neurons
-
-
+## Artificial Neurons
 
 
 
-#### Sigmoid Neurons 
+
+
+### Sigmoid Neurons 
 
 By utilizing Sigmoid Neurons, our 
 
-### Softmax Function
+## Softmax Function
 
 The softmax function can be thought of as an additional layer in the ANN. 
 
@@ -56,11 +58,11 @@ When we create an ANN, we fundamentally want to find the values of the weights a
 
 
 
-### Gradient Descent
+## Gradient Descent
 
 Gradient descent is an optimization algorithm that is perhaps the most commonly used optimization algorithm in ANN's. 
 
-#### 3. 1 The Cost Function 
+### 3. 1 The Cost Function 
 
 The **cost function** or **loss function** allows us to quantify how well our network is approximating it's output. If we call our network weights *W*, this function is directly measuring the quality of weights *W*. We ultimately want to discover the *W* the minimizes the cost function. 
 
@@ -107,22 +109,22 @@ def eval_numerical_gradient(f, x):
 
 
 
-#### The Backpropogation Algorithm
+### The Backpropogation Algorithm
 
-#### The Cross-Entropy Cost Function
+### The Cross-Entropy Cost Function
 
-## The Structure of Artificial Neural Networks
+# The Structure of Artificial Neural Networks
 
 
-## Tuning Neural Networks
+# Tuning Neural Networks
 
-### Regularization Methods
+## Regularization Methods
 
-### How to Choose Parameters for Neural Networks
+## How to Choose Parameters for Neural Networks
 
-## Types of Artificial Neural Networks
+# Types of Artificial Neural Networks
 
-### Convolutional Neural Networks
+## Convolutional Neural Networks
 
 Convolutional neural networks are useful when: 
 
@@ -141,17 +143,17 @@ covolutional networks take into account the spatial structure of data; as such t
 With convolutional networks - the structure represents more of a 
 
 
-### Deep Neural Networks
+## Deep Neural Networks
 
 We've learned about Shallow Neural Networks, but what about Deep Neural Networks or *Deep Learning*? 
 
-### Deep Convolutional Networks
+## Deep Convolutional Networks
 
-### Recurrent Neural Networks
+## Recurrent Neural Networks
 
-### Long Short-Term Memory Units (LSTM's)
+## Long Short-Term Memory Units (LSTM's)
 
-### Deep Belief Networks
+## Deep Belief Networks
 
 Deep belief nets were popular applications of deep learning for the later half of the 200s.
 
@@ -161,15 +163,15 @@ DBN's can be used for unsupervised learning.
 
 While DBN's are the greatest in terms of long term scientific potential, they have fallen "out of fashion" at the moment. 
 
-### Generative Models
+## Generative Models
 
-### Boltzmann Machines
+## Boltzmann Machines
 
-### Memory Networks
+## Memory Networks
 
 **Neural Turing Machines**
 
-## Applications of Neural Networks
+# Applications of Neural Networks
 
 Deep Neural Networks can be trained to do natural langauge processing, machine translation, and the scientific study of music - known as music informatics
 
