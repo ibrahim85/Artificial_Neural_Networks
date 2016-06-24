@@ -85,6 +85,10 @@ A few years after the development of the perceptron, a scientist by the name of 
 
 By utilizing Sigmoid Neurons, our 
 
+Sigmoid Neurons allow for the small changes in weight that adjust to small changes in output that make learning possible. 
+
+![](./assets/sigm.png)
+
 ## Softmax Function
 
 The softmax function can be thought of as an additional layer in the ANN. 
