@@ -1,7 +1,7 @@
 # Field Guide to Neural Networks
 #### By Patrick D. Smith.
 
-## Introduction 
+# Introduction 
 
 
 
@@ -16,14 +16,12 @@ ANNs are non-linear, distributed, parallel and adaptive.
 
 When constructing ANNs, it's important to keep in mind that when we first construct our ANN, we should expect it to be not so sure of it's predictions in the beginning. Once we continually feed it training data, the network should then become **more** confident as it learns the correct classifications. 
 
-#### A Brief History of ANNs and Their Development
+## A Brief History of ANNs and Their Development
 
 Whereas the basis for ANNs was originally derived from the structure of biological neural networks (see *perceptrons*), more networks are based or firmer signal processing and statistical models. 
 
+### Arriving at modern day neural networks
 
-## Elements of Neural Networks
-
-### Artificial Neurons
 
 #### Perceptrons 
 
@@ -36,6 +34,13 @@ To compute output, perceptrons use *weights*, which are simply numbers that repr
 Say we have two possible binary outputs, 1 and 2, and we need to classify our inputs as such. The perceptron will take *X* inputs and weight and reutrn a single decision 
 
 #### Adaptive Linear Neurons - AKA ADALINE
+
+
+## Elements of Neural Networks
+
+### Artificial Neurons
+
+
 
 
 
