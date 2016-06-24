@@ -89,6 +89,12 @@ Sigmoid Neurons allow for the small changes in weight that adjust to small chang
 
 ![](./images/sigm.png)
 
+Just like it's predecessor the perceptron, sigmoid neurons have multiple inputs. However, as opposed to have a binary input of say, 0 or 1, the inputs of a sigmoid neuron can take on any value within the range of 0 and 1. Similar to a perceptron, the sigmoid neuron has weights for each input and an overall bias weight. 
+
+The output of a sigmoid neuron is represented by the *sigmoid function*. You're probably familiar with the sigmoid curve: 
+
+!(./images/sigcurv.png)
+
 ## Softmax Function
 
 The softmax function can be thought of as an additional layer in the ANN. 
