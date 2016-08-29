@@ -1,7 +1,20 @@
 # Field Guide to Neural Networks
 ### By Patrick D. Smith.
 
-This field guide was developed for the Data Science Immersive Class at General Assembly, Washington DC. All content herin is property of the author.
+This field guide was developed for the Data Science Immersive Class at General Assembly, Washington DC. 
+
+| TYPE  | TOPIC  |
+|---|---|
+| [Opening](#opening) | Opening |
+| [Introduction](#introduction) | Intro to Classification and Regression Trees |
+| [Discussion](#discussion) | Discussion: The ID3 Algorithm for decision trees |
+| [Guided-practice](#guided-practice) | Guided Practice: Decision trees pros and cons |
+| [Ind-practice](#ind-practice) | Independent Practice: Decision trees as a service |
+| [Conclusion](#conclusion) | Conclusion |
+
+
+
+
 
 # Introduction 
 
