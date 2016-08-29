@@ -6,10 +6,10 @@ This field guide was developed for the Data Science Immersive Class at General A
 | TYPE  | TOPIC  |
 |---|---|
 | [Introduction](#opening) | Opening |
-| [History of ANNs](#introduction) | Intro to Classification and Regression Trees |
+| [History of Artificial Neural Networks](#introduction) | Intro to Classification and Regression Trees |
 | [Elements of Neural Networks](#discussion) | Discussion: The ID3 Algorithm for decision trees |
-| [Guided-practice](#guided-practice) | Guided Practice: Decision trees pros and cons |
-| [Ind-practice](#ind-practice) | Independent Practice: Decision trees as a service |
+| [Structure of Artificial Neural Networks](#guided-practice) | Guided Practice: Decision trees pros and cons |
+| [Types of Networks](#ind-practice) | Independent Practice: Decision trees as a service |
 | [Conclusion](#conclusion) | Conclusion |
 
 
