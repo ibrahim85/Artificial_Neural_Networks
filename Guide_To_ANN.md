@@ -168,7 +168,6 @@ def eval_numerical_gradient(f, x):
 ## How to Choose Parameters for Neural Networks
 
 # Types of Artificial Neural Networks
-
 ## Convolutional Neural Networks
 
 Convolutional neural networks are useful when: 
@@ -187,11 +186,23 @@ covolutional networks take into account the spatial structure of data; as such t
 
 With convolutional networks - the structure represents more of a 
 
+---
+## Recurrent Neural Networks
 
+Think about how a human thinks - do you think a new thought every moment when trying to read or comprehend a situation? Quite the contrary; we comprehend what is going on in the moment based on the context of everything that has come before. 
+
+Recurrent neural networks have backwards feedback loops.
+
+
+
+---
 ## Deep Neural Networks
 
 We've learned about Shallow Neural Networks, but what about Deep Neural Networks or *Deep Learning*? 
 
+
+
+---
 ## Deep Convolutional Networks
 
 ## Recurrent Neural Networks
