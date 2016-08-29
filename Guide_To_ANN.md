@@ -5,11 +5,11 @@ This field guide was developed for the Data Science Immersive Class at General A
 
 | CHAPTER  | DESCRIPTION  |
 |---|---|
-| [Introduction](#introduction) | Opening |
-| [History of Artificial Neural Networks](#history) | Intro to Classification and Regression Trees |
-| [Elements of Neural Networks](#elements) | Discussion: The ID3 Algorithm for decision trees |
-| [Structure of Artificial Neural Networks](#structure) | Guided Practice: Decision trees pros and cons |
-| [Types of Networks](#types) | Independent Practice: Decision trees as a service |
+| [Introduction](#introduction) | Intro to ANNs |
+| [History of Artificial Neural Networks](#history) | A brief history of the development of ANNs |
+| [Elements of Neural Networks](#elements) | What makes up a neural network? |
+| [Structure of Artificial Neural Networks](#structure) | Putting the elements together |
+| [Types of Networks](#types) | Different types of networks and their implementation |
 | [Conclusion](#conclusion) | Conclusion |
 
 
