@@ -3,19 +3,19 @@
 
 This field guide was developed for the Data Science Immersive Class at General Assembly, Washington DC. 
 
-| TYPE  | TOPIC  |
+| CHAPTER  | DESCRIPTION  |
 |---|---|
-| [Introduction](#opening) | Opening |
-| [History of Artificial Neural Networks](#introduction) | Intro to Classification and Regression Trees |
-| [Elements of Neural Networks](#discussion) | Discussion: The ID3 Algorithm for decision trees |
-| [Structure of Artificial Neural Networks](#guided-practice) | Guided Practice: Decision trees pros and cons |
-| [Types of Networks](#ind-practice) | Independent Practice: Decision trees as a service |
+| [Introduction](#introduction) | Opening |
+| [History of Artificial Neural Networks](#history) | Intro to Classification and Regression Trees |
+| [Elements of Neural Networks](#elements) | Discussion: The ID3 Algorithm for decision trees |
+| [Structure of Artificial Neural Networks](#structure) | Guided Practice: Decision trees pros and cons |
+| [Types of Networks](#types) | Independent Practice: Decision trees as a service |
 | [Conclusion](#conclusion) | Conclusion |
 
 
 
 
-
+<a name="introduction"></a>
 # Introduction 
 
 We live in an age of machine learning; as one of the most important and growing areas of study in the modern technology age, machine learning and it's applications have the potential to penetrate every aspect of our lives. From text and voice recognition to self driving cars - it's already shaping our future lives and enviroment. Within machine learning, one of the biggest areas of research and development is with artificial neural networks. 
@@ -34,6 +34,7 @@ ANNs are non-linear, distributed, parallel and adaptive.
 
 When constructing ANNs, it's important to keep in mind that when we first construct our ANN, we should expect it to be not so sure of it's predictions in the beginning. Once we continually feed it training data, the network should then become **more** confident as it learns the correct classifications. 
 
+<a name="history"></a>
 # A Brief History of ANNs and Their Development
 
 In 1943, Warren McCulloch and Walter Pitts drew out the first conceptual network on the basic of the brain's frontal cortex. Whereas the basis for ANNs was originally derived from the structure of biological neural networks (see *perceptrons*), more networks are based or firmer signal processing and statistical models. 
@@ -86,6 +87,7 @@ The problem with perceptrons is that they work more or less perfectly if you dat
 
 A few years after the development of the perceptron, a scientist by the name of Bernard Widrow developed on the perceptron concept and created the adaptive linear neuron. The funamental difference between the functions exists in the manner in which each derive their weights - whereas the perceptron uses a *unit step function*, the ADALINE utilizes a **linear activation function*
 
+<a name="elements"></a>
 # Elements of Neural Networks
 
 ## Artificial Neurons
@@ -171,15 +173,20 @@ def eval_numerical_gradient(f, x):
 
 ### The Cross-Entropy Cost Function
 
+<a name="structure"></a>
 # The Structure of Artificial Neural Networks
 
 
+
+<a name="tuning"></a>
 # Tuning Neural Networks
 
 ## Regularization Methods
 
 ## How to Choose Parameters for Neural Networks
 
+
+<a name="types"></a>
 # Types of Artificial Neural Networks
 ## Convolutional Neural Networks
 
