@@ -253,9 +253,12 @@ Think about how a human thinks - do you think a new thought every moment when tr
 Recurrent neural networks have backwards feedback loops.
 
 --
-#### LSTM's
+### LSTM's
 Long Short Term Memory, or LSTM's are a special form of a recurrent neural network which solve the problem of long-term dependencies that arise with stanfard RNN's. 
 
+### Examples
+
+#### I. Multilayer RNN to Generate Text
 
 
 ---
