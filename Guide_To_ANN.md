@@ -193,11 +193,11 @@ def eval_numerical_gradient(f, x):
 ---
 ## Convolutional Neural Networks
 
-Convolutional neural networks are useful when: 
+Convolutional networks can be thought of as a larger, more biologically inspired varient of a multi-layer perceptron network. 
 
-- Your data's structure is spatial or temporal; IE your features depend solely on the neighborhood of input data
-- These same local features can in every spatial or temporal position
-- 
+These networks are large networks that essentially work off of identical copies of the same neuron. With this structure, we can increase the computational power of our network with more neurons while keeping the number of parameters for the entire network fairly low. If we think of a single neuron like a function in programming, the ability to replicate neurons across the network for a variety of uses increases our computational time while decreasing our errors. 
+
+
 
 These network are based on three principles:
 
@@ -205,9 +205,22 @@ These network are based on three principles:
 - Shared weights
 - Pooling
 
-covolutional networks take into account the spatial structure of data; as such they are frequently used for image recognition.  
+Covolutional networks take into account the spatial structure of data; as such they are frequently used for image recognition.  
 
 With convolutional networks - the structure represents more of a 
+
+#### Uses of Convolutional Networks
+
+Convolutional neural networks are useful when: 
+
+- Your data's structure is spatial or temporal; IE your features depend solely on the neighborhood of input data
+- These same local features can be in every spatial or temporal position
+
+Practical Problems: 
+
+- Image Recognition (Computer Vision) 
+- Voice Recognition
+
 
 ---
 ## Recurrent Neural Networks
