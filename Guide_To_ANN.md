@@ -139,6 +139,9 @@ For classification tasks, we should always use the **cross-entropy** loss functi
 
 For regression tasks, it's recommended that you utilize an absolute value function, such as the **mean absolute error**, wich will give you a network that computes the conditional median of the target distribution, rather than the conditional mean.
 
+**III. Learning Tasks***
+
+
 
 
 --
