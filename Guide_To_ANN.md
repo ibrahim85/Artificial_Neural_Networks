@@ -189,6 +189,9 @@ def eval_numerical_gradient(f, x):
 <a name="types"></a>
 # Types of Artificial Neural Networks
 
+There are numerous types of neural networks. In fact, it wouldn't be too far off to say that not one network works exactly the same. 
+
+There are two primary forms of ANNs: **Convolutional Neural Networks** and **Recurrent Neural Networks**.
 
 ---
 ## Convolutional Neural Networks
