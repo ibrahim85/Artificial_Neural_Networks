@@ -213,6 +213,10 @@ Think about how a human thinks - do you think a new thought every moment when tr
 
 Recurrent neural networks have backwards feedback loops.
 
+----
+### LTSM's
+LTSM's are a special form of a recurrent neural network. 
+
 
 
 ---
