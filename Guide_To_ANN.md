@@ -122,14 +122,26 @@ When we create an ANN, we fundamentally want to find the values of the weights a
 
 Gradient descent is an optimization algorithm that is perhaps the most commonly used optimization algorithm in ANN's. 
 
-### 3. 1 The Cost Function 
+### 3. 1 The Loss Function 
 
-The **cost function** or **loss function** allows us to quantify how well our network is approximating it's output. If we call our network weights *W*, this function is directly measuring the quality of weights *W*. We ultimately want to discover the *W* the minimizes the cost function. 
+The **loss function** allows us to quantify how well our network is approximating it's output. If we call our network weights *W*, this function is directly measuring the quality of weights *W*. We ultimately want to discover the *W* the minimizes the cost function. 
 
 ![](./images/costfunction.png)
 
 
 In this function *C* represents the **mean squared error**
+
+**I. Classification Tasks**
+
+For classification tasks, we should always use the **cross-entropy** loss function. It has been tested to perform much better than the classification error function, and as well as somewhat better than mean squared error.
+
+**II. Regression Tasks**
+
+For regression tasks, it's recommended that you utilize an absolute value function, such as the **mean absolute error**, wich will give you a network that computes the conditional median of the target distribution, rather than the conditional mean.
+
+
+
+--
 
 **Computing the Gradient**
 
