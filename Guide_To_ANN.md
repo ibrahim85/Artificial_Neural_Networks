@@ -188,6 +188,9 @@ def eval_numerical_gradient(f, x):
 
 <a name="types"></a>
 # Types of Artificial Neural Networks
+
+
+---
 ## Convolutional Neural Networks
 
 Convolutional neural networks are useful when: 
@@ -214,8 +217,8 @@ Think about how a human thinks - do you think a new thought every moment when tr
 Recurrent neural networks have backwards feedback loops.
 
 --
-### LTSM's
-LTSM's are a special form of a recurrent neural network. 
+#### LSTM's
+Long Short Term Memory, or LSTM's are a special form of a recurrent neural network which solve the problem of long-term dependencies that arise with stanfard RNN's. 
 
 
 
@@ -229,10 +232,8 @@ We've learned about Shallow Neural Networks, but what about Deep Neural Networks
 ---
 ## Deep Convolutional Networks
 
-## Recurrent Neural Networks
 
-## Long Short-Term Memory Units (LSTM's)
-
+---
 ## Deep Belief Networks
 
 Deep belief nets were popular applications of deep learning for the later half of the 200s.
