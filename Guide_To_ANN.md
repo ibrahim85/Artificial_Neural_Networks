@@ -225,6 +225,11 @@ Practical Problems:
 - Voice Recognition
 
 
+#### Loss Function 
+
+We use the cross-entropy loss function
+
+
 ---
 ## Recurrent Neural Networks
 
