@@ -260,6 +260,7 @@ Long Short Term Memory, or LSTM's are a special form of a recurrent neural netwo
 
 #### I. Multilayer RNN to Generate Text
 
+[a multilayer RNN that effectively writes text](https://github.com/karpathy/char-rnn)
 
 ---
 ## Deep Neural Networks
